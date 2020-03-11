@@ -1,7 +1,3 @@
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
-
 .header {
   height: 700px;
   background-image: url("../images/header.jpg");
@@ -71,65 +67,4 @@ h1 {
     background-color: #fff;
     width: 35px; }
 
-.nav {
-  color: #fff;
-  text-transform: uppercase; }
-  .nav__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    list-style-type: none;
-    background: transparent; }
-  .nav__item {
-    background: transparent; }
-  .nav__item--active {
-    position: relative;
-    padding: 8px 24px;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 8px; }
-  .nav__link {
-    color: #fff;
-    text-decoration: none;
-    -webkit-transition: color 0.3s ease-out;
-    transition: color 0.3s ease-out;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 16px;
-    padding: 8px 24px; }
-  .nav__link:hover {
-    color: #9fadc2; }
-
-.logo {
-  width: 115px;
-  height: 76px;
-  background-image: url("../images/logo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-html,
-body,
-ul,
-li,
-button,
-input,
-textarea {
-  margin: 0;
-  padding: 0;
-  background: #f2f2f2;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 27px; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=header.css.map */
