@@ -1,0 +1,139 @@
+.consultation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .consultation > div:not(:last-child) {
+    padding-bottom: 40px; }
+  .consultation__heading {
+    height: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -1.5px;
+    margin-bottom: 56px; }
+    .consultation__heading h1 {
+      position: relative;
+      margin: 0; }
+  .consultation__logo {
+    position: absolute;
+    bottom: -8px;
+    left: calc(50% - 11.5px);
+    width: 23px;
+    height: 16px;
+    background-image: url("../images/crown.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; }
+  .consultation__filling {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .consultation__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 413px;
+    margin-top: 24px; }
+    .consultation__form input {
+      height: 48px;
+      padding: 17px 0 17px 17px;
+      border: 1px solid #fff;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-size: 14px;
+      line-height: 14px;
+      background-color: #f7f8ff;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .consultation__form input:focus {
+      outline: none;
+      font-weight: 700;
+      border: 3px solid gold; }
+    .consultation__form button {
+      margin-top: 16px;
+      padding: 21px 0;
+      border: 0;
+      background: #0075ff;
+      -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+              box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 14px;
+      color: #fff;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-transition: color 0.3s ease-out;
+      transition: color 0.3s ease-out; }
+    .consultation__form button:hover {
+      cursor: pointer;
+      color: #9fadc2; }
+    .consultation__form button:focus {
+      outline: none;
+      background: rgba(220, 20, 60, 0.5); }
+  .consultation a {
+    text-decoration: none;
+    color: #0075ff;
+    -webkit-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out; }
+  .consultation a:hover {
+    color: #9fadc2; }
+  .consultation a:focus {
+    outline: none;
+    background: rgba(220, 20, 60, 0.5); }
+  .consultation h3 {
+    width: 240px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px; }
+  .consultation p {
+    max-width: 412px;
+    color: #3e3e3e; }
+
+@media screen and (max-width: 1020px) {
+  .consultation > div:not(:last-child) {
+    padding-bottom: 30px; }
+  .consultation__heading {
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 46px; }
+  .consultation__filling {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .consultation p {
+    max-width: 279px;
+    color: #3e3e3e; }
+  .consultation__form {
+    width: 280px; } }
+
+/*# sourceMappingURL=consultation.css.map */

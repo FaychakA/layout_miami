@@ -25,10 +25,10 @@
     font-size: 48px;
     line-height: 48px;
     letter-spacing: -1.5px;
-    margin-bottom: 16px; }
-    .gallery__heading h1 {
-      position: relative;
-      margin: 0; }
+    margin-bottom: 56px; }
+  .gallery__h1 {
+    position: relative;
+    margin: 0; }
   .gallery__logo {
     position: absolute;
     bottom: -8px;
@@ -39,13 +39,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
-  .gallery a {
-    text-decoration: none;
-    color: #0075ff;
-    -webkit-transition: color 0.3s ease-out;
-    transition: color 0.3s ease-out; }
-  .gallery a:hover {
-    color: #9fadc2; }
   .gallery__link {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -63,6 +56,7 @@
       padding: 21px 65px;
       width: 188px;
       white-space: nowrap;
+      color: #0075ff;
       border: 2px solid #0075ff;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
@@ -70,10 +64,15 @@
       font-weight: bold;
       font-size: 16px;
       line-height: 14px;
-      -webkit-transition: border-color 0.3s ease-out;
-      transition: border-color 0.3s ease-out; }
+      text-decoration: none;
+      -webkit-transition: 0.3s ease-out;
+      transition: 0.3s ease-out; }
     .gallery__link--View:hover {
-      border-color: #9fadc2; }
+      border-color: #9fadc2;
+      color: #9fadc2; }
+    .gallery__link--View:focus {
+      outline: none;
+      background: rgba(220, 20, 60, 0.5); }
 
 @media screen and (max-width: 1020px) {
   .gallery > div:not(:last-child) {

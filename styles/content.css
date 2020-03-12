@@ -31,6 +31,19 @@
 .content__text {
   margin: 24px 0 0; }
 
+.content__link {
+  text-decoration: none;
+  color: #0075ff;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s; }
+
+.content__link:hover {
+  color: #9fadc2; }
+
+.content__link:focus {
+  outline: none;
+  background: rgba(220, 20, 60, 0.5); }
+
 @media screen and (max-width: 1020px) {
   .content__img--0 {
     min-width: 131px;

@@ -23,7 +23,16 @@
   .nav__phone {
     position: absolute;
     top: 56px;
-    left: 120px; }
+    left: 120px;
+    text-decoration: none;
+    color: white;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s; }
+  .nav__phone:hover {
+    color: #9fadc2; }
+  .nav__phone:focus {
+    outline: none;
+    background: rgba(220, 20, 60, 0.5); }
   .nav__action {
     position: absolute;
     top: 56px;
@@ -39,6 +48,9 @@
       .nav__action--link:hover {
         color: #9fadc2;
         border-color: #9fadc2; }
+      .nav__action--link:focus {
+        outline: none;
+        background: rgba(220, 20, 60, 0.5); }
   .nav__center {
     position: absolute;
     bottom: 165px;
@@ -92,6 +104,9 @@
     padding: 8px 24px; }
   .nav__link:hover {
     color: #9fadc2; }
+  .nav__link:focus {
+    outline: none;
+    background: rgba(220, 20, 60, 0.5); }
 
 @media screen and (max-width: 1020px) {
   .nav {
@@ -120,7 +135,7 @@
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
+      height: 100vh;
       z-index: 2;
       display: none;
       -webkit-box-orient: vertical;
