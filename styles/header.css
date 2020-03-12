@@ -16,55 +16,13 @@
   letter-spacing: 2px;
   color: #fff; }
   .header__nav {
-    position: absolute;
-    bottom: 48px;
-    left: 120px;
-    right: 120px; }
-  .header__top {
-    position: absolute;
-    top: 24px;
-    left: 120px;
-    right: 120px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 100% -240px;
-    margin: auto;
-    color: #fff; }
-  .header__link {
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-    padding-bottom: 8px;
-    border-bottom: 1px solid #fff; }
-    .header__link:hover {
-      color: #9fadc2;
-      border-color: #9fadc2; }
-  .header__center {
-    position: absolute;
-    top: 390px;
-    left: 120px;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -1.5px; }
-    .header__center--item {
-      margin: 0; }
-  .header__center::before {
-    content: "";
-    position: absolute;
-    top: -16px;
-    left: 0;
-    height: 2px;
-    background-color: #fff;
-    width: 35px; }
+    width: 100%; }
+  @media screen and (max-width: 960px) {
+    .header__nav {
+      height: 100%; } }
+
+@media screen and (max-width: 960px) {
+  .header {
+    height: 568px; } }
 
 /*# sourceMappingURL=header.css.map */
