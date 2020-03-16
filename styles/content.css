@@ -4,14 +4,22 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .content__img--0 {
+  .content__img--container {
     height: 256px;
     border-radius: 8px;
-    background-size: cover;
-    background-position: center; }
-  .content__img--0:hover {
+    overflow: hidden; }
+  .content__img--container:hover {
     -webkit-box-shadow: 0 0 10px 5px #3c94f8;
-            box-shadow: 0 0 10px 5px #3c94f8;
+            box-shadow: 0 0 10px 5px #3c94f8; }
+  .content__img--0 {
+    height: 256px;
+    background-size: cover;
+    background-position: center;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s; }
+  .content__img--0:hover {
     -webkit-transform: scale(1.2);
             transform: scale(1.2); }
   .content__img--first {

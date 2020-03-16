@@ -1,6 +1,8 @@
 .section {
+  position: relative;
   padding: 152px 120px 10px;
-  background: #f2f2f2; }
+  background: #f2f2f2;
+  z-index: 5; }
   .section > div {
     display: -webkit-box;
     display: -ms-flexbox;

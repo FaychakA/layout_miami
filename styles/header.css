@@ -20,6 +20,9 @@
 
 @media screen and (max-width: 1020px) {
   .header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     height: 568px; }
     .header__nav {
       height: 100%; } }
