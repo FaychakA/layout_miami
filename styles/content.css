@@ -58,6 +58,9 @@
   color: #00ff; }
 
 @media screen and (max-width: 1020px) {
+  .content__img--container {
+    height: 131px;
+    min-width: 131px; }
   .content__img--0 {
     min-width: 131px;
     height: 131px; }
