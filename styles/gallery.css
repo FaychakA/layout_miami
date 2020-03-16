@@ -72,7 +72,9 @@
       color: #9fadc2; }
     .gallery__link--View:focus {
       outline: none;
-      background: rgba(220, 20, 60, 0.5); }
+      -webkit-box-shadow: 0 0 10px 5px #3c94f8;
+              box-shadow: 0 0 10px 5px #3c94f8;
+      color: #00ff; }
 
 @media screen and (max-width: 1020px) {
   .gallery > div:not(:last-child) {
@@ -80,8 +82,6 @@
   .gallery__heading {
     font-size: 36px;
     line-height: 36px;
-    margin-bottom: 46px; }
-  .gallery__link--View {
-    width: 100%; } }
+    margin-bottom: 46px; } }
 
 /*# sourceMappingURL=gallery.css.map */

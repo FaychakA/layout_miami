@@ -32,7 +32,7 @@
     color: #9fadc2; }
   .nav__phone:focus {
     outline: none;
-    background: rgba(220, 20, 60, 0.5); }
+    color: #000; }
   .nav__action {
     position: absolute;
     top: 56px;
@@ -50,7 +50,8 @@
         border-color: #9fadc2; }
       .nav__action--link:focus {
         outline: none;
-        background: rgba(220, 20, 60, 0.5); }
+        color: #000;
+        border-color: #000; }
   .nav__center {
     position: absolute;
     bottom: 165px;
@@ -106,7 +107,8 @@
     color: #9fadc2; }
   .nav__link:focus {
     outline: none;
-    background: rgba(220, 20, 60, 0.5); }
+    -webkit-box-shadow: 0 0 10px 5px #3c94f8;
+            box-shadow: 0 0 10px 5px #3c94f8; }
 
 @media screen and (max-width: 1020px) {
   .nav {
@@ -131,7 +133,7 @@
       line-height: 40px;
       letter-spacing: -1px; }
     .nav__list {
-      padding: 104px 0 0 24px;
+      padding: 104px 0 0;
       top: 0;
       left: 0;
       width: 100%;
@@ -170,13 +172,15 @@
     .nav__item--active {
       background: transparent; }
     .nav__link {
-      padding: 16px 0; }
+      padding: 8px 0 8px 24px; }
     .nav__item {
       padding: 0; }
     .nav__input:checked ~ .nav__list {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; }
+    .nav__input:checked ~ .nav__list .nav__link {
+      width: 100vw; }
     .nav__input:checked ~ .nav__center {
       z-index: -1; }
     .nav__input:checked ~ .nav__phone {

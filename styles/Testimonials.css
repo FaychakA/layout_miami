@@ -63,13 +63,22 @@
     height: 153px;
     border-radius: 76.5px;
     background-size: cover;
-    background-position: center; }
+    background-position: center;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s; }
     .testimonials__photo--1 {
       background-image: url("../images/people/Ellipse 1.png"); }
     .testimonials__photo--2 {
       background-image: url("../images/people/Ellipse 2.png"); }
     .testimonials__photo--3 {
       background-image: url("../images/people/Ellipse 3.png"); }
+  .testimonials__photo:hover {
+    -webkit-box-shadow: 0 0 10px 5px #3c94f8;
+            box-shadow: 0 0 10px 5px #3c94f8;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
   .testimonials__link {
     padding: 24px 0 0;
     font-weight: bold;
@@ -83,7 +92,7 @@
     color: #9fadc2; }
   .testimonials__link:focus {
     outline: none;
-    background: rgba(220, 20, 60, 0.5); }
+    color: #00ff; }
   .testimonials__position {
     margin: 0;
     padding: 4px 0 13px;

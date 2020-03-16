@@ -17,7 +17,7 @@
 
 .info__link:focus {
   outline: none;
-  background: rgba(220, 20, 60, 0.5); }
+  color: #00ff; }
 
 .info__text {
   max-width: 500px;

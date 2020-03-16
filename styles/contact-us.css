@@ -79,7 +79,8 @@
   .contact-us__input:focus {
     outline: none;
     font-weight: 700;
-    border: 3px solid gold; }
+    -webkit-box-shadow: 0 0 10px 5px #3c94f8;
+            box-shadow: 0 0 10px 5px #3c94f8; }
   .contact-us__textarea {
     width: 413px;
     height: 144px;
@@ -94,12 +95,13 @@
   .contact-us__textarea:focus {
     outline: none;
     font-weight: 700;
-    border: 3px solid gold; }
+    -webkit-box-shadow: 0 0 10px 5px #3c94f8;
+            box-shadow: 0 0 10px 5px #3c94f8; }
   .contact-us__button {
     margin-top: 32px;
     padding: 21px 0;
-    border: 0;
     background: #0075ff;
+    border: 1px solid #0075ff;
     -webkit-box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
             box-shadow: 0 6px 23px rgba(0, 117, 255, 0.46);
     border-radius: 8px;
@@ -109,14 +111,18 @@
     color: #fff;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    -webkit-transition: color 0.3s ease-out;
-    transition: color 0.3s ease-out; }
+    -webkit-transition: color 0.3s background-color 0.3s;
+    transition: color 0.3s background-color 0.3s; }
   .contact-us__button:hover {
     cursor: pointer;
-    color: #9fadc2; }
+    color: #9fadc2;
+    background-color: white; }
   .contact-us__button:focus {
     outline: none;
-    background: rgba(220, 20, 60, 0.5); }
+    -webkit-box-shadow: 0 0 10px 5px #3c94f8;
+            box-shadow: 0 0 10px 5px #3c94f8;
+    color: #0075ff;
+    background-color: white; }
   .contact-us__info--text {
     width: 152px;
     color: #3e3e3e;
@@ -133,7 +139,7 @@
     color: #9fadc2; }
   .contact-us__link:focus {
     outline: none;
-    background: rgba(220, 20, 60, 0.5); }
+    color: #00ff; }
 
 @media screen and (max-width: 1020px) {
   .contact-us > div:not(:last-child) {

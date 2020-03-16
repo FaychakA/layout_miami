@@ -9,6 +9,11 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center; }
+  .content__img--0:hover {
+    -webkit-box-shadow: 0 0 10px 5px #3c94f8;
+            box-shadow: 0 0 10px 5px #3c94f8;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2); }
   .content__img--first {
     grid-template-columns: 637fr 327fr; }
   .content__img--1 {
@@ -42,7 +47,7 @@
 
 .content__link:focus {
   outline: none;
-  background: rgba(220, 20, 60, 0.5); }
+  color: #00ff; }
 
 @media screen and (max-width: 1020px) {
   .content__img--0 {
