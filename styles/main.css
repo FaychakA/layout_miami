@@ -24,9 +24,6 @@ h1 {
 
 @media screen and (max-width: 1020px) {
   .header {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     height: 568px; }
     .header__nav {
       height: 100%; } }
@@ -246,10 +243,8 @@ h1 {
     height: 48px; } }
 
 .section {
-  position: relative;
   padding: 152px 120px 10px;
-  background: #f2f2f2;
-  z-index: 5; }
+  background: #f2f2f2; }
   .section > div {
     display: -webkit-box;
     display: -ms-flexbox;
