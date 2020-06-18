@@ -29,6 +29,7 @@ h1 {
       height: 100%; } }
 
 .nav {
+  position: relative;
   color: #fff;
   text-transform: uppercase; }
   .nav__logo {
@@ -114,7 +115,13 @@ h1 {
     list-style-type: none;
     background: transparent; }
   .nav__item {
-    background: transparent; }
+    background: transparent;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
   .nav__item--active {
     position: relative;
     padding: 8px 24px;
@@ -122,9 +129,6 @@ h1 {
     border-radius: 8px; }
   .nav__link {
     white-space: nowrap;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     color: #fff;
     text-decoration: none;
     -webkit-transition: color 0.3s ease-out;
